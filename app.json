@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "assets-react-native-tutorial",
-    "slug": "assets-react-native-tutorial",
+    "slug": "assets-react-native-tutorial2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,19 +9,26 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FABD5A"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chelseafarley.assetsreactnativetutorial2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FABD5A"
+      },
+      "package": "com.chelseafarley.assetsreactnativetutorial2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0bf3a5b2-8647-4e0c-8f53-5986b09ba97f"
+      }
     }
   }
 }
